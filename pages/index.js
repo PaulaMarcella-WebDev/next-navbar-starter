@@ -5,13 +5,13 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Page Titel</title>
+        <title>Paula Marcella</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
         <section>
           <div className="container">
-            <h1>Basix Next js Setup for Responsive Navbar</h1>
+            <h1>Basic Next.js Layout for Responsive Navbar</h1>
             <p>Paula Marcella WebDev</p>
           </div>
         </section>
