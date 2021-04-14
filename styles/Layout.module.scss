@@ -1,0 +1,12 @@
+@import "./variables";
+/* 
+Breakpoints
+tablet: 959px) 
+mobile 569px 
+*/
+
+//---- Layout
+.wrapper {
+  min-height: calc(100vh - 88px - 56px); // -nav height & -footer height
+  background-color: $backgroundcolor;
+}

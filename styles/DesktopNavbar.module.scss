@@ -1,0 +1,75 @@
+@import "./variables";
+
+// Desktop
+.navbar {
+  z-index: 100;
+  position: relative;
+  font-size: 20px;
+  letter-spacing: 0.06em;
+  height: 88px;
+  padding: 0 36px;
+  background-color: $white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -webkit-box-shadow: 0 4px 10px -10px rgb(0 0 0 / 60%);
+  box-shadow: 0 4px 10px -10px rgb(0 0 0 / 60%);
+  .logo {
+    height: 35px;
+  }
+}
+
+.nav {
+  display: flex;
+  height: 100%;
+}
+
+.dropdown {
+  border-bottom: 4px solid transparent;
+  display: flex;
+  align-items: center;
+  padding: 0 14px;
+  position: relative;
+  height: 100%;
+  a {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  span:hover {
+    cursor: default;
+  }
+  svg {
+    margin-left: 5px;
+  }
+  .navlinks {
+    display: none;
+    z-index: 100;
+    position: absolute;
+    left: 0px;
+    top: 88px;
+    background-color: #fff;
+    border-radius: 0 0 6px 6px;
+    padding: 18px;
+    min-width: 13em;
+    max-width: 20em;
+    list-style: none;
+    .navlink {
+      padding: 14px 27px;
+    }
+  }
+}
+
+.dropdown:hover,
+.dropdown:active {
+  border-bottom: 4px solid $brandcolor;
+  .navlinks {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 1224px) {
+  .navbar {
+    display: none;
+  }
+}

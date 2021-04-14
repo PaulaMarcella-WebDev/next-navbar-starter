@@ -1,0 +1,30 @@
+@import "./variables";
+
+.footer {
+  width: 100%;
+  padding: 20px 0;
+  background-color: $accentcolor;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  p {
+    padding: 0 10px;
+    &.link {
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+// Tablet & Mobile
+@media only screen and (max-width: 1224px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    p {
+      padding: 5px;
+    }
+  }
+}

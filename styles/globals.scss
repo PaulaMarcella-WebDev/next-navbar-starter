@@ -1,0 +1,41 @@
+@import "./_variables.scss";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+html,
+body {
+  font-family: "Inter", sans-serif;
+  color: $textcolor;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  margin-bottom: 2rem;
+}
+
+.container {
+  padding: 80px 36px;
+  overflow: hidden;
+}
+
+// Desktop
+@media only screen and (min-width: 959px) {
+  .container {
+    padding: 100px 220px;
+  }
+}
+
+/* 
+Breakpoints
+iPadPro: 1224px
+tablet: 959px
+mobile 569px 
+*/

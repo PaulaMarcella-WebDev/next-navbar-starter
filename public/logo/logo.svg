@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="218px" height="145px" viewBox="0 0 218 145" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="LogoPM-Webdev-Copy" transform="translate(-100.000000, -150.000000)">
+            <g id="Group" transform="translate(84.000000, 64.000000)">
+                <text id="pm" fill="#111111" fill-rule="nonzero" font-family="MonofurForPowerline, monofur for Powerline" font-size="229.787234" font-weight="normal">
+                    <tspan x="0" y="187">pm</tspan>
+                </text>
+                <line x1="62" y1="222" x2="225.459459" y2="222" id="Line" stroke="#FCE851" stroke-width="15.3191489" stroke-linecap="round"></line>
+            </g>
+        </g>
+    </g>
+</svg>
